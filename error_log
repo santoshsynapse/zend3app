@@ -1,0 +1,51 @@
+[26-Dec-2017 07:47:29 UTC] PHP Fatal error:  Uncaught Zend\ModuleManager\Exception\RuntimeException: Module (Admin) could not be initialized. in /home/trivia/public_html/staging/vendor/zendframework/zend-modulemanager/src/ModuleManager.php:203
+Stack trace:
+#0 /home/trivia/public_html/staging/vendor/zendframework/zend-modulemanager/src/ModuleManager.php(175): Zend\ModuleManager\ModuleManager->loadModuleByName(Object(Zend\ModuleManager\ModuleEvent))
+#1 /home/trivia/public_html/staging/vendor/zendframework/zend-modulemanager/src/ModuleManager.php(97): Zend\ModuleManager\ModuleManager->loadModule('Admin')
+#2 /home/trivia/public_html/staging/vendor/zendframework/zend-eventmanager/src/EventManager.php(322): Zend\ModuleManager\ModuleManager->onLoadModules(Object(Zend\ModuleManager\ModuleEvent))
+#3 /home/trivia/public_html/staging/vendor/zendframework/zend-eventmanager/src/EventManager.php(171): Zend\EventManager\EventManager->triggerListeners(Object(Zend\ModuleManager\ModuleEvent))
+#4 /home/trivia/public_html/staging/vendor/zendframework/zend-modulemanager/src in /home/trivia/public_html/staging/vendor/zendframework/zend-modulemanager/src/ModuleManager.php on line 203
+[26-Dec-2017 07:48:53 UTC] PHP Fatal error:  Uncaught Zend\ModuleManager\Exception\RuntimeException: Module (Admin) could not be initialized. in /home/trivia/public_html/staging/vendor/zendframework/zend-modulemanager/src/ModuleManager.php:203
+Stack trace:
+#0 /home/trivia/public_html/staging/vendor/zendframework/zend-modulemanager/src/ModuleManager.php(175): Zend\ModuleManager\ModuleManager->loadModuleByName(Object(Zend\ModuleManager\ModuleEvent))
+#1 /home/trivia/public_html/staging/vendor/zendframework/zend-modulemanager/src/ModuleManager.php(97): Zend\ModuleManager\ModuleManager->loadModule('Admin')
+#2 /home/trivia/public_html/staging/vendor/zendframework/zend-eventmanager/src/EventManager.php(322): Zend\ModuleManager\ModuleManager->onLoadModules(Object(Zend\ModuleManager\ModuleEvent))
+#3 /home/trivia/public_html/staging/vendor/zendframework/zend-eventmanager/src/EventManager.php(171): Zend\EventManager\EventManager->triggerListeners(Object(Zend\ModuleManager\ModuleEvent))
+#4 /home/trivia/public_html/staging/vendor/zendframework/zend-modulemanager/src in /home/trivia/public_html/staging/vendor/zendframework/zend-modulemanager/src/ModuleManager.php on line 203
+[26-Dec-2017 07:49:45 UTC] PHP Fatal error:  Uncaught Zend\ModuleManager\Exception\RuntimeException: Module (Admin) could not be initialized. in /home/trivia/public_html/staging/vendor/zendframework/zend-modulemanager/src/ModuleManager.php:203
+Stack trace:
+#0 /home/trivia/public_html/staging/vendor/zendframework/zend-modulemanager/src/ModuleManager.php(175): Zend\ModuleManager\ModuleManager->loadModuleByName(Object(Zend\ModuleManager\ModuleEvent))
+#1 /home/trivia/public_html/staging/vendor/zendframework/zend-modulemanager/src/ModuleManager.php(97): Zend\ModuleManager\ModuleManager->loadModule('Admin')
+#2 /home/trivia/public_html/staging/vendor/zendframework/zend-eventmanager/src/EventManager.php(322): Zend\ModuleManager\ModuleManager->onLoadModules(Object(Zend\ModuleManager\ModuleEvent))
+#3 /home/trivia/public_html/staging/vendor/zendframework/zend-eventmanager/src/EventManager.php(171): Zend\EventManager\EventManager->triggerListeners(Object(Zend\ModuleManager\ModuleEvent))
+#4 /home/trivia/public_html/staging/vendor/zendframework/zend-modulemanager/src in /home/trivia/public_html/staging/vendor/zendframework/zend-modulemanager/src/ModuleManager.php on line 203
+[26-Dec-2017 07:53:24 UTC] PHP Fatal error:  Uncaught Zend\ModuleManager\Exception\RuntimeException: Module (Admin) could not be initialized. in /home/trivia/public_html/staging/vendor/zendframework/zend-modulemanager/src/ModuleManager.php:203
+Stack trace:
+#0 /home/trivia/public_html/staging/vendor/zendframework/zend-modulemanager/src/ModuleManager.php(175): Zend\ModuleManager\ModuleManager->loadModuleByName(Object(Zend\ModuleManager\ModuleEvent))
+#1 /home/trivia/public_html/staging/vendor/zendframework/zend-modulemanager/src/ModuleManager.php(97): Zend\ModuleManager\ModuleManager->loadModule('Admin')
+#2 /home/trivia/public_html/staging/vendor/zendframework/zend-eventmanager/src/EventManager.php(322): Zend\ModuleManager\ModuleManager->onLoadModules(Object(Zend\ModuleManager\ModuleEvent))
+#3 /home/trivia/public_html/staging/vendor/zendframework/zend-eventmanager/src/EventManager.php(171): Zend\EventManager\EventManager->triggerListeners(Object(Zend\ModuleManager\ModuleEvent))
+#4 /home/trivia/public_html/staging/vendor/zendframework/zend-modulemanager/src in /home/trivia/public_html/staging/vendor/zendframework/zend-modulemanager/src/ModuleManager.php on line 203
+[26-Dec-2017 07:54:17 UTC] PHP Fatal error:  Uncaught Zend\ModuleManager\Exception\RuntimeException: Module (Admin) could not be initialized. in /home/trivia/public_html/staging/vendor/zendframework/zend-modulemanager/src/ModuleManager.php:203
+Stack trace:
+#0 /home/trivia/public_html/staging/vendor/zendframework/zend-modulemanager/src/ModuleManager.php(175): Zend\ModuleManager\ModuleManager->loadModuleByName(Object(Zend\ModuleManager\ModuleEvent))
+#1 /home/trivia/public_html/staging/vendor/zendframework/zend-modulemanager/src/ModuleManager.php(97): Zend\ModuleManager\ModuleManager->loadModule('Admin')
+#2 /home/trivia/public_html/staging/vendor/zendframework/zend-eventmanager/src/EventManager.php(322): Zend\ModuleManager\ModuleManager->onLoadModules(Object(Zend\ModuleManager\ModuleEvent))
+#3 /home/trivia/public_html/staging/vendor/zendframework/zend-eventmanager/src/EventManager.php(171): Zend\EventManager\EventManager->triggerListeners(Object(Zend\ModuleManager\ModuleEvent))
+#4 /home/trivia/public_html/staging/vendor/zendframework/zend-modulemanager/src in /home/trivia/public_html/staging/vendor/zendframework/zend-modulemanager/src/ModuleManager.php on line 203
+[26-Dec-2017 10:06:55 UTC] PHP Fatal error:  Uncaught Zend\ServiceManager\Exception\ServiceNotFoundException: A plugin by the name "baseUrl" was not found in the plugin manager Zend\View\HelperPluginManager in /home/trivia/public_html/staging/vendor/zendframework/zend-servicemanager/src/AbstractPluginManager.php:131
+Stack trace:
+#0 /home/trivia/public_html/staging/vendor/zendframework/zend-view/src/Renderer/PhpRenderer.php(376): Zend\ServiceManager\AbstractPluginManager->get('baseUrl', NULL)
+#1 /home/trivia/public_html/staging/vendor/zendframework/zend-view/src/Renderer/PhpRenderer.php(394): Zend\View\Renderer\PhpRenderer->plugin('baseUrl')
+#2 /home/trivia/public_html/staging/module/Admin/view/layout/login.phtml(17): Zend\View\Renderer\PhpRenderer->__call('baseUrl', Array)
+#3 /home/trivia/public_html/staging/vendor/zendframework/zend-view/src/Renderer/PhpRenderer.php(505): include('/home/trivia/pu...')
+#4 /home/trivia/public_html/staging/vendor/zendframework/zend-view/src/View.php(207): Zend\View\Renderer\PhpRenderer->render(NULL)
+#5 /home/trivia/public in /home/trivia/public_html/staging/vendor/zendframework/zend-servicemanager/src/AbstractPluginManager.php on line 131
+[26-Dec-2017 10:07:56 UTC] PHP Fatal error:  Uncaught Zend\ServiceManager\Exception\ServiceNotFoundException: A plugin by the name "baseUrl" was not found in the plugin manager Zend\View\HelperPluginManager in /home/trivia/public_html/staging/vendor/zendframework/zend-servicemanager/src/AbstractPluginManager.php:131
+Stack trace:
+#0 /home/trivia/public_html/staging/vendor/zendframework/zend-view/src/Renderer/PhpRenderer.php(376): Zend\ServiceManager\AbstractPluginManager->get('baseUrl', NULL)
+#1 /home/trivia/public_html/staging/vendor/zendframework/zend-view/src/Renderer/PhpRenderer.php(394): Zend\View\Renderer\PhpRenderer->plugin('baseUrl')
+#2 /home/trivia/public_html/staging/module/Admin/view/layout/login.phtml(17): Zend\View\Renderer\PhpRenderer->__call('baseUrl', Array)
+#3 /home/trivia/public_html/staging/vendor/zendframework/zend-view/src/Renderer/PhpRenderer.php(505): include('/home/trivia/pu...')
+#4 /home/trivia/public_html/staging/vendor/zendframework/zend-view/src/View.php(207): Zend\View\Renderer\PhpRenderer->render(NULL)
+#5 /home/trivia/public in /home/trivia/public_html/staging/vendor/zendframework/zend-servicemanager/src/AbstractPluginManager.php on line 131
