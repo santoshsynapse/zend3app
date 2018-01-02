@@ -9,11 +9,32 @@ namespace Application\Controller;
 
 use Zend\Mvc\Controller\AbstractActionController;
 use Zend\View\Model\ViewModel;
+use Application\Entity\Menu;
 
 class IndexController extends AbstractActionController
 {
+	 /**
+     * Entity manager.
+     * @var Doctrine\ORM\EntityManager 
+     */
+    private $entityManager;
+	
+	private $menuManager;
+	
+	public function __construct($entityManager,$menuManager) 
+    {
+        $this->entityManager = $entityManager;
+		$this->menuManager = $menuManager;
+       
+    }
+	
     public function indexAction()
     {
+		
+		
+		$post = $this->entityManager->getRepository(Menu::class)
+                ->findOneById(2);
+				
         return new ViewModel();
     }
 }
